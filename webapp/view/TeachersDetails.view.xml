@@ -1,0 +1,11 @@
+<mvc:View controllerName="project1ui5.controller.TeachersDetails"
+  xmlns:mvc="sap.ui.core.mvc"
+  xmlns="sap.m">
+
+  <Page title="Teacher Details">
+    <ObjectHeader
+      title="{name}"
+      number="{id}"
+      numberUnit="Teacher ID"/>
+  </Page>
+</mvc:View>
